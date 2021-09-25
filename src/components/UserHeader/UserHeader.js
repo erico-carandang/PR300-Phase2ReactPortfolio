@@ -23,11 +23,11 @@ const UserHeader = ({ user }) => {
             </a>
           </h4>
           <p>{user.basics.label}</p>
-          <p>Coding in {user.basics.region}</p>
-          <p>{user.basics.yearsOfExperience} years of experience as a developer</p>
+          <p>Working in {user.basics.region}</p>
+          <p>{user.basics.yearsOfExperience} years of experience as an Administrative Professional</p>
           <p>{user.basics.headline}</p>
           <p>
-            Blog:{' '}
+            GitHub:{' https://github.com/erico-carandang '}
             <a href={user.basics.blog} target="_blank" rel="noreferrer noopener">
               {user.basics.blog}
             </a>
